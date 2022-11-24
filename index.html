@@ -1,43 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- CABEÇA DO MEU CÓDIGO HTML -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HELLO WORLD</title>
+    <title> Renan Oliveira - CV </title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
-<!-- CORPO DO MEU CÓDIGO HTML -->
-
 <body>
-    <h1> Hello, world! </h1>
+    <main class="resume-contents">
 
-    <ul>
-        <h3> DADOS PESSOAIS: </h3>
-        <li> Renan Olievira </li>
-        <li> Futuro engenheiro de software </li>
-        <li> 19 ANOS </li>
+        <section class="left-section">
 
-    </ul>
+            <section class="left-section-content">
 
-    <ol>
-        <br>
-        <h3> ANOTAÇÕES PARA A AULA </h3>
-        <li> Introdução ao figma </li>
-        <li> Introdução ao Git </li>
-        <li> Introdução ao Github </li>
-        <li> Trabalhando com diretórios e o Git </li>
-        <br>
-        <li> Resolver tarefa para a casa </li>
-    </ol>
+                <!-- AQUI É UMA DIV PARA O MEU PERFIL = PROFILE-->
+                <div class="profile">
+
+                    <img class="profile-image" src="img/profile-image-teste.jpg" alt="Profile image">
+                    <p class="name"> Renan Oliveira </p>
+                    <p class="profession"> Student </p>
+
+                </div>
+
+                <!-- AQUI É UMA DIV CLASS PARA AS MINHAS INFORMAÇÕES DE CONTATO = CONTACT-INFO-->
+                <div class="contact-info">
+
+                    <!-- AQUI É UMA DIV CLASS PARA O MEU CONTATO DO LADO DIREITO DO MEU CURRÍCULO-->
+                    <p class="left-title"> Contact </p>
+
+                    <!-- AQUI EU CRIEI UMA LISTA DE INFORMAÇÕES NÃO ORDENADAS, PARA APRESENTAR MINHAS INFORMAÇÕES -->
+                    <ul>
+                        <li> <i class="fa fa-phone"> Number: +55 41 95555-5555 </i> </li>
+                        <li> <i class="fa fa-envelope"> Email: renan@gmail.com </i> </li>
+                        <li> <i class="fa fa-globe"> Blog: www.renanoliveira.com </i> </li>
+                        <li> <i class="fa fa-github"> Github: Usuário </i> </li>
+                    </ul>
+                </div>
+
+                <!-- AQUI É UMA DIV CLASS PARA ADICIONAR AS MINHAS INFORMAÇÕES DE SKILLS -->
+                <div class="skills">
+
+                    <!-- AQUI É UMA PARÁGRAFO CLASS PARA ADICIONAR O TÍTULO SKILLS -->
+                    <p class="left-title"> Skills </p>
+
+                    <!-- INFORMANDO MINHAS SKILLS ATRAVÉS DE UMA LISTA E DENTRO DESSA LISTA POSSUI PARAGRAFOS-->
+                    <ul>
+                        <li>
+                            <p> HTML, CSS, Git & Github </p>
+                        </li>
+                        <li>
+                            <p> Java, MySQL </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+        </section>
+        <!-- AGORA VOU CRIAR A MINHA SEÇÃO PARA A PARTE DA DIREITA DO CURRICULO-->
+        <section class="right-section">
+
+            <!-- SEÇÃO PARA OS CONTEÚDOS QUE VOU COLOCAR NO MEU CURRICULO-->
+            <div class="right-section-contents">
+
+                <!-- NOMENCLATURA PAR A CHAMAR NO CSS = about gap-->
+                <section class="about gap">
+
+                    <!-- TÍTULO DA DIREITA-->
+                    <div class="right-title"> About me </div>
+
+                    <!-- TODO CONTEÚDO QUE EU QUISER COLOCAR SOBRE MIM -->
+                    <p class="about-me-contents">
+                        <br>
+                        Olá! Meu nome é Renan Oliveira
+                        <br> Aqui estão minhas experiências profissionais
+                        <br> e também, minhas competências
+                    </p>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
-
-<!-- PÉ DO MEU CÓDIGO HTML -->
-<footer>
-
-</footer>
 
 </html>
