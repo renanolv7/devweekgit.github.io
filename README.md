@@ -1,2 +1,3 @@
 # devweekgit.github.io
-Currículo do Jornada Dev
+Jornada Dev
+Projeto de desenvolvimento -  Currículo pessoal usando HTML e CSS
