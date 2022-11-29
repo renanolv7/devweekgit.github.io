@@ -1,2 +1,6 @@
 # devweekgit.github.io
-Jornada Dev - Projeto de desenvolvimento - Currículo pessoal usando HTML e CSS
+Primeiro Projeto - Jornada Dev EBAC
+
+##
+
+Projeto de desenvolvimento - Currículo pessoal usando HTML e CSS 
